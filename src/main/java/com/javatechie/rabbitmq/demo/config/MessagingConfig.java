@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MessagingConfig {
 
+    // here we should specify QUEUE, EXCHANGE AND ROUTING_KEY, which CONNECTS them. 
+
     public static final String QUEUE = "javatechie_queue";
     public static final String EXCHANGE = "javatechie_exchange";
     public static final String ROUTING_KEY = "javatechie_routingKey";
