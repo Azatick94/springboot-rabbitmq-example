@@ -25,7 +25,7 @@ Using Docker command :
 RabbitMQ Architecture :
 -----------------------
 
-![alt text](src\main\resources\images\rabbitmq-exchange.jpg)
+![alt text](https://images2.russianblogs.com/493/e0/e053077508746bd323781f53ac20248d.png)
 
 Publisher sends message to Exchange, Exchange using ROUTING_KEY sends message to Certain Queue, Then Subscribed
 Consumers get message from the Queue. 
